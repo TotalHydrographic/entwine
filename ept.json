@@ -1,0 +1,126 @@
+{
+  "bounds": [
+    268485.0,
+    5766312.0,
+    -13564.0,
+    295627.0,
+    5793454.0,
+    13578.0
+  ],
+  "boundsConforming": [
+    268486.0,
+    5774768.0,
+    -3.0,
+    295626.0,
+    5784997.0,
+    16.0
+  ],
+  "dataType": "laszip",
+  "hierarchyType": "json",
+  "points": 26542748,
+  "schema": [
+    {
+      "name": "X",
+      "offset": 282056.0,
+      "scale": 0.001,
+      "size": 4,
+      "type": "signed"
+    },
+    {
+      "name": "Y",
+      "offset": 5779883.0,
+      "scale": 0.001,
+      "size": 4,
+      "type": "signed"
+    },
+    {
+      "name": "Z",
+      "offset": 7.0,
+      "scale": 0.001,
+      "size": 4,
+      "type": "signed"
+    },
+    {
+      "name": "Intensity",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "ReturnNumber",
+      "size": 1,
+      "type": "unsigned"
+    },
+    {
+      "name": "NumberOfReturns",
+      "size": 1,
+      "type": "unsigned"
+    },
+    {
+      "name": "ScanDirectionFlag",
+      "size": 1,
+      "type": "unsigned"
+    },
+    {
+      "name": "EdgeOfFlightLine",
+      "size": 1,
+      "type": "unsigned"
+    },
+    {
+      "name": "Classification",
+      "size": 1,
+      "type": "unsigned"
+    },
+    {
+      "name": "ScanAngleRank",
+      "size": 4,
+      "type": "float"
+    },
+    {
+      "name": "UserData",
+      "size": 1,
+      "type": "unsigned"
+    },
+    {
+      "name": "PointSourceId",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "Red",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "Green",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "Blue",
+      "size": 2,
+      "type": "unsigned"
+    },
+    {
+      "name": "ScanChannel",
+      "size": 1,
+      "type": "unsigned"
+    },
+    {
+      "name": "ClassFlags",
+      "size": 1,
+      "type": "unsigned"
+    },
+    {
+      "name": "OriginId",
+      "size": 4,
+      "type": "unsigned"
+    }
+  ],
+  "span": 128,
+  "srs": {
+    "authority": "EPSG",
+    "horizontal": "32755",
+    "wkt": "PROJCS[\"unnamed\", GEOGCS[\"WGS 84\", DATUM[\"WGS_1984\", SPHEROID[\"WGS 84\",6378137,298.257223563], TOWGS84[0,0,0,0,0,0,0]], PRIMEM[\"Greenwich\",0], UNIT[\"degree\",0.0174532925199433]], PROJECTION[\"Transverse_Mercator\"], PARAMETER[\"latitude_of_origin\",0.000000], PARAMETER[\"central_meridian\",147.000000], PARAMETER[\"scale_factor\",0.999600], PARAMETER[\"false_easting\",500000.000000], PARAMETER[\"false_northing\",10000000.000000], UNIT[\"metre\",1]]"
+  },
+  "version": "1.0.0"
+}

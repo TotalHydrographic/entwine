@@ -1,0 +1,72 @@
+{
+  "VRCAGeelong.las": {
+    "bounds": [
+      268486.3,
+      5774768.700999999,
+      -2.1400000000000006,
+      295625.5,
+      5784996.79,
+      15.219999999999999
+    ],
+    "metadata": {
+      "comp_spatialreference": "PROJCS[\"unnamed\", GEOGCS[\"WGS 84\", DATUM[\"WGS_1984\", SPHEROID[\"WGS 84\",6378137,298.257223563], TOWGS84[0,0,0,0,0,0,0]], PRIMEM[\"Greenwich\",0], UNIT[\"degree\",0.0174532925199433]], PROJECTION[\"Transverse_Mercator\"], PARAMETER[\"latitude_of_origin\",0.000000], PARAMETER[\"central_meridian\",147.000000], PARAMETER[\"scale_factor\",0.999600], PARAMETER[\"false_easting\",500000.000000], PARAMETER[\"false_northing\",10000000.000000], UNIT[\"metre\",1]]",
+      "compressed": false,
+      "count": 26542748,
+      "creation_doy": 0,
+      "creation_year": 0,
+      "dataformat_id": 2,
+      "dataoffset": 866,
+      "filesource_id": 0,
+      "global_encoding": 0,
+      "global_encoding_base64": "AAA=",
+      "header_size": 375,
+      "major_version": 1,
+      "maxx": 295625.5,
+      "maxy": 5784996.79,
+      "maxz": 15.22,
+      "minor_version": 4,
+      "minx": 268486.3,
+      "miny": 5774768.701,
+      "minz": -2.14,
+      "offset_x": 276530.3,
+      "offset_y": 5778207.3,
+      "offset_z": 7.84,
+      "point_length": 26,
+      "project_id": "00000000-0000-0000-0000-000000000000",
+      "scale_x": 0.001,
+      "scale_y": 0.001,
+      "scale_z": 0.001,
+      "software_id": "HYPACK Cloud",
+      "spatialreference": "PROJCS[\"unnamed\", GEOGCS[\"WGS 84\", DATUM[\"WGS_1984\", SPHEROID[\"WGS 84\",6378137,298.257223563], TOWGS84[0,0,0,0,0,0,0]], PRIMEM[\"Greenwich\",0], UNIT[\"degree\",0.0174532925199433]], PROJECTION[\"Transverse_Mercator\"], PARAMETER[\"latitude_of_origin\",0.000000], PARAMETER[\"central_meridian\",147.000000], PARAMETER[\"scale_factor\",0.999600], PARAMETER[\"false_easting\",500000.000000], PARAMETER[\"false_northing\",10000000.000000], UNIT[\"metre\",1]]",
+      "srs": {
+        "compoundwkt": "PROJCS[\"unnamed\", GEOGCS[\"WGS 84\", DATUM[\"WGS_1984\", SPHEROID[\"WGS 84\",6378137,298.257223563], TOWGS84[0,0,0,0,0,0,0]], PRIMEM[\"Greenwich\",0], UNIT[\"degree\",0.0174532925199433]], PROJECTION[\"Transverse_Mercator\"], PARAMETER[\"latitude_of_origin\",0.000000], PARAMETER[\"central_meridian\",147.000000], PARAMETER[\"scale_factor\",0.999600], PARAMETER[\"false_easting\",500000.000000], PARAMETER[\"false_northing\",10000000.000000], UNIT[\"metre\",1]]",
+        "horizontal": "PROJCS[\"unnamed\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",147],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",10000000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+        "isgeocentric": false,
+        "isgeographic": false,
+        "prettycompoundwkt": "PROJCS[\"unnamed\",\n    GEOGCS[\"WGS 84\",\n        DATUM[\"WGS_1984\",\n            SPHEROID[\"WGS 84\",6378137,298.257223563],\n            TOWGS84[0,0,0,0,0,0,0]],\n        PRIMEM[\"Greenwich\",0],\n        UNIT[\"degree\",0.0174532925199433]],\n    PROJECTION[\"Transverse_Mercator\"],\n    PARAMETER[\"latitude_of_origin\",0],\n    PARAMETER[\"central_meridian\",147],\n    PARAMETER[\"scale_factor\",0.9996],\n    PARAMETER[\"false_easting\",500000],\n    PARAMETER[\"false_northing\",10000000],\n    UNIT[\"metre\",1],\n    AXIS[\"Easting\",EAST],\n    AXIS[\"Northing\",NORTH]]",
+        "prettywkt": "PROJCS[\"unnamed\",\n    GEOGCS[\"WGS 84\",\n        DATUM[\"WGS_1984\",\n            SPHEROID[\"WGS 84\",6378137,298.257223563],\n            TOWGS84[0,0,0,0,0,0,0]],\n        PRIMEM[\"Greenwich\",0],\n        UNIT[\"degree\",0.0174532925199433]],\n    PROJECTION[\"Transverse_Mercator\"],\n    PARAMETER[\"latitude_of_origin\",0],\n    PARAMETER[\"central_meridian\",147],\n    PARAMETER[\"scale_factor\",0.9996],\n    PARAMETER[\"false_easting\",500000],\n    PARAMETER[\"false_northing\",10000000],\n    UNIT[\"metre\",1],\n    AXIS[\"Easting\",EAST],\n    AXIS[\"Northing\",NORTH]]",
+        "proj4": "+proj=utm +zone=55 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+        "units": {
+          "horizontal": "metre",
+          "vertical": ""
+        },
+        "vertical": "",
+        "wkt": "PROJCS[\"unnamed\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563],TOWGS84[0,0,0,0,0,0,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",147],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",10000000],UNIT[\"metre\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]"
+      },
+      "system_id": "",
+      "vlr_0": {
+        "data": "UFJPSkNTWyJ1bm5hbWVkIiwgR0VPR0NTWyJXR1MgODQiLCBEQVRVTVsiV0dTXzE5ODQiLCBTUEhFUk9JRFsiV0dTIDg0Iiw2Mzc4MTM3LDI5OC4yNTcyMjM1NjNdLCBUT1dHUzg0WzAsMCwwLDAsMCwwLDBdXSwgUFJJTUVNWyJHcmVlbndpY2giLDBdLCBVTklUWyJkZWdyZWUiLDAuMDE3NDUzMjkyNTE5OTQzM11dLCBQUk9KRUNUSU9OWyJUcmFuc3ZlcnNlX01lcmNhdG9yIl0sIFBBUkFNRVRFUlsibGF0aXR1ZGVfb2Zfb3JpZ2luIiwwLjAwMDAwMF0sIFBBUkFNRVRFUlsiY2VudHJhbF9tZXJpZGlhbiIsMTQ3LjAwMDAwMF0sIFBBUkFNRVRFUlsic2NhbGVfZmFjdG9yIiwwLjk5OTYwMF0sIFBBUkFNRVRFUlsiZmFsc2VfZWFzdGluZyIsNTAwMDAwLjAwMDAwMF0sIFBBUkFNRVRFUlsiZmFsc2Vfbm9ydGhpbmciLDEwMDAwMDAwLjAwMDAwMF0sIFVOSVRbIm1ldHJlIiwxXV0=",
+        "description": "by LAStools of rapidlasso GmbH",
+        "record_id": 2112,
+        "user_id": "LASF_Projection"
+      }
+    },
+    "origin": 0,
+    "points": 26542748,
+    "srs": {
+      "authority": "EPSG",
+      "horizontal": "32755",
+      "wkt": "PROJCS[\"unnamed\", GEOGCS[\"WGS 84\", DATUM[\"WGS_1984\", SPHEROID[\"WGS 84\",6378137,298.257223563], TOWGS84[0,0,0,0,0,0,0]], PRIMEM[\"Greenwich\",0], UNIT[\"degree\",0.0174532925199433]], PROJECTION[\"Transverse_Mercator\"], PARAMETER[\"latitude_of_origin\",0.000000], PARAMETER[\"central_meridian\",147.000000], PARAMETER[\"scale_factor\",0.999600], PARAMETER[\"false_easting\",500000.000000], PARAMETER[\"false_northing\",10000000.000000], UNIT[\"metre\",1]]"
+    }
+  }
+}
