@@ -45,7 +45,7 @@
 		viewer.setFOV(60);
 		viewer.setPointBudget(2*1000*1000);
 		viewer.loadSettingsFromURL();
-		viewer.setDescription('Streaming point clouds from an <a href="https://entwine.io/" target="_blank">Entwine</a> backend.');
+		viewer.setDescription('TEST');
 		viewer.loadGUI(() => {
 			viewer.setLanguage('en');
 			$("#menu_appearance").next().show();
@@ -59,49 +59,15 @@
 			if (!results || !results[2]) return null;
 			return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
-		{
+		
+	/*	{
 			var server = "greyhound://cache.greyhound.io/resource/";
-			/* Some current public resources:
-				autzen
-				half-dome
-				iowa
-				iowa-bridge
-				iowa-city
-				lake-isabella
-				lone-star
-				nyc
-				nz
-				red-rocks
-				sncf
-				space-shuttle
-				st-helens
-				vanuatu-village
-			*/
+			
 			
 			var resource = "autzen";
 			
 			
-			//
-			// Some recommended configurations:
-			//
-			
-			//var resource = "iowa-bridge";
-			//viewer.setMaterial("Intensity");
-			//viewer.setIntensityRange(0, 65536);
-			//viewer.setIntensityBrightness(0.2);
-			
-			//var resource = "iowa-city";
-			//viewer.setMaterial("Intensity");
-			
-			//var resource = "lake-isabella";
-			//viewer.setMaterial("Intensity");
-			//viewer.setIntensityGamma(0.5);
-			
-			//var resource = "space-shuttle";
-			//viewer.setMaterial("Intensity");
-			//viewer.setIntensityRange(0, 4500);
-			//viewer.setIntensityGamma(1.5);
-			
+					
 			
 			
 			if (getQueryParam("server")) {
@@ -110,7 +76,9 @@
 			if (getQueryParam("resource")) {
 				resource = getQueryParam("resource");
 			}
-			Potree.loadPointCloud(server + resource + "/", "autzen", (e) => {
+			*/
+			
+			Potree.loadPointCloud("ept.json", "index1", (e) => {
 				viewer.scene.addPointCloud(e.pointcloud);
 				e.pointcloud.material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
 				e.pointcloud.material.size = 0.6;
